@@ -13,7 +13,7 @@ const Order = (props) => {
   const [image, setImage] = useState("");
 
   
-
+//axios makes request and gets data from db
   useEffect(() => {
     axios
       //props pass from app.js to order.js

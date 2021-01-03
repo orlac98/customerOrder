@@ -37,7 +37,7 @@ const EditOrder = props => {
         setEmail("");
         setProductno("");
 
-        //axios used to update the db
+        //axios used to make request to update the db
         //set message to show instead of console.log
         axios
         .put(`/orders/update/${props.match.params.id}`, formData)

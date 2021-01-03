@@ -2,6 +2,11 @@ import React, {useState} from "react";
 import styled from "styled-components";
 import axios from "axios";
 
+
+
+//i had a seperate page to add an order, but i added in a modal on the home page 
+//and added the form in there instead. 
+
 const AddOrder = () => {
     //hooks used for inputs to db
     const [name, setName] = useState("");
