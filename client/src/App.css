@@ -1,0 +1,21 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+:root {
+  --magenta: #D77994;
+  --coral: #FF5733;
+  --lightMagenta: #DA3D6A;
+}
+
+*{
+  font-family: 'Staatliches', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
